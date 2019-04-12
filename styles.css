@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial;
+    text-align: center;
+background-repeat: no-repeat;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("small257.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.demo-content {
+    padding: 30px 60px;
+    background-color: #fff2e6;
+    border: #efe3d8 1px solid;
+    display: inline;
+}
+
+.space-70 {
+  height: 70px;
+  display: block;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.demo-content label {
+    font-size:12px;
+}
+
+.demo-content span {
+    color: #ff7d06;
+    text-align: center;
+    font-size: 12px;
+    margin-left:10px; 
+    
+}
+
+.demo-content form {
+    width: auto;
+    display:inline-block;
+    text-align:left;
+}
+
+.demo-content input {
+    margin: 5px 0px 20px 0px;
+    padding:10px;
+    width:250px;
+}
+
+.demo-content button {
+    margin-bottom:20px;
+}
+#response {
+    padding:15px 0px;
+}
+
+.error {
+    color: #de1414;
+}
+
+.success {
+    color: #4cde14;
+}
+
+.btn {
+    padding: 10px 20px;
+    width: 100%;
+    color: #FFF;
+    font-size: 12px;
+    background: #333;
+    border: #252525 1px solid;
+}
+
+.login {
+    background: #09f;
+    border: #09f 1px solid;
+}
+
+.signup {
+    background: #379805;
+    border: #379706 1px solid;
+
+input[type="radio"] {
+  margin-right: 0;
+}
